@@ -31,13 +31,24 @@ This repository is my personal Java practice space where I explore programming c
 
 📂 Repository Structure
 
-daily-hands-on-java/
+```
+java-daily/
+│
+├── Pgm1.java
+├── Pgm2.java
+├── Pgm3.java
+├── ...
 │
 ├── README.md
-├── Day-01/
-├── Day-02/
-├── Day-03/
-└── ...
+└── .gitignore
+```
+
+Each program is an independent `.java` file. To compile and run one:
+
+```
+javac Pgm1.java
+java Pgm1
+```
 
 🛠️ Tools
 
